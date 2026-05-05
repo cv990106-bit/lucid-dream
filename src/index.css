@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Be Vietnam Pro", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+
+  --color-primary: #386661;
+  --color-primary-container: #c6f7f0;
+  --color-on-primary-container: #45736e;
+  
+  --color-secondary: #50616b;
+  --color-secondary-container: #d3e5f2;
+  
+  --color-tertiary: #665a6c;
+  --color-tertiary-container: #f8e8fe;
+
+  --color-surface: #fbf9f8;
+  --color-on-surface: #1b1c1c;
+  --color-on-surface-variant: #404847;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f6f3f2;
+  --color-surface-container-highest: #e4e2e1;
+  
+  --color-error: #ba1a1a;
+  
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-sans antialiased;
+  }
+}
+
+.glass {
+  @apply bg-white/40 backdrop-blur-3xl border border-white/20;
+}
+
+.glass-dark {
+  @apply bg-white/70 backdrop-blur-3xl border-t border-white/30;
+}
+
+.ethereal-sphere {
+  @apply absolute rounded-full blur-[80px] opacity-40 mix-blend-multiply pointer-events-none;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-20px) scale(1.05); }
+}
+
+.animate-float {
+  animation: float 10s ease-in-out infinite;
+}
