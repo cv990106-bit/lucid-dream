@@ -6,7 +6,7 @@ export const ARTISTS: Artist[] = [
     name: '키드밀리',
     englishName: 'Kid Milli',
     description: 'Kid Milli - Bringing the surreal vibes to the main stage.',
-    imageUrl: 'https://lh3.googleusercontent.com/aida/ADBb0uhy_wBqxQha9L4GknwM9x2rPaBTI5QUqtNdK1BQrMvdtXX7DbA3ZoA-Y64ARB6Z_kWgaDKYRmpvX82U3pl6tCRA66nZrn1DxQp2MDBviVNngF8Ur1uf823Pakw8l9wluYJQYoLVospEIFRrwvhJ_NH1ch8buQlC-eS8g_s4zOkIm_7nCgmgCUFZmbuzbSI9mO_O52ajFmcKj9dIumBLG9lKPJgDNwUURUmvEY2wCtgkldS2LKO_hGEusJgcfh04FHOEI4RPuckZsMA',
+    imageUrl: 'https://lh3.googleusercontent.com/aida/ADBb0ujIe7imzD8pINHf2qzTTJsTJZtvqw8ipKrBHwzTDLNyluAyrIig_ErjWXInH2AHAg8nbzUMZulsTqkg4ejno2L_4IGqy3T-mlnhD3z3dhtcmizg9Q-vS3XdP-8xD5dyLwfw-ZLJmzUaxMo4s_ce6E7lPDJFzanVz_Eplyx-jM0j0werjzxfbbD51QzoLlZ2A-3Gf-YVHqTGVYcd9T8--tdlawW2FvrynSO0C3nhB4bwc2oxjDPtsauNS0Z0ZjvuO_fE7eS2qgBTQnA',
     day: 1,
     isHeadliner: true,
   },
@@ -31,7 +31,7 @@ export const ARTISTS: Artist[] = [
     name: '에이핑크',
     englishName: 'Apink',
     description: 'Bright, optimistic melodies from the K-pop queens.',
-    imageUrl: 'https://lh3.googleusercontent.com/aida/ADBb0ujIe7imzD8pINHf2qzTTJsTJZtvqw8ipKrBHwzTDLNyluAyrIig_ErjWXInH2AHAg8nbzUMZulsTqkg4ejno2L_4IGqy3T-mlnhD3z3dhtcmizg9Q-vS3XdP-8xD5dyLwfw-ZLJmzUaxMo4s_ce6E7lPDJFzanVz_Eplyx-jM0j0werjzxfbbD51QzoLlZ2A-3Gf-YVHqTGVYcd9T8--tdlawW2FvrynSO0C3nhB4bwc2oxjDPtsauNS0Z0ZjvuO_fE7eS2qgBTQnA',
+    imageUrl: 'https://lh3.googleusercontent.com/aida/ADBb0uhy_wBqxQha9L4GknwM9x2rPaBTI5QUqtNdK1BQrMvdtXX7DbA3ZoA-Y64ARB6Z_kWgaDKYRmpvX82U3pl6tCRA66nZrn1DxQp2MDBviVNngF8Ur1uf823Pakw8l9wluYJQYoLVospEIFRrwvhJ_NH1ch8buQlC-eS8g_s4zOkIm_7nCgmgCUFZmbuzbSI9mO_O52ajFmcKj9dIumBLG9lKPJgDNwUURUmvEY2wCtgkldS2LKO_hGEusJgcfh04FHOEI4RPuckZsMA',
     day: 1,
   },
   {
